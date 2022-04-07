@@ -59,13 +59,197 @@
 	{
 		"name":"bl",
 		"defs":[
-			"Abréviation de Bas Level, désignant les joueurs debutants.",
-			"Insulte parfois utilisée contre les joueurs faisant des erreurs similaires au cours d'une partie. <b>Utilisation interdite et sanctionn<i>able</i>!!</b>"
+			"Abréviation de Bas Level, désignant les joueurs debutants."
 		],
 		"anto":[
 			"ml",
 			"hl"
 		],
 		"syno":null
+	},
+	{
+		"name":"chassou",
+		"defs":[
+			"<b>/ Chass :</b>Diminutif de Chasseur. <b>Joue avec: Chaperon Rouge.</b>"
+		],
+		"anto":null,
+		"syno":null
+	},
+	{
+		"name":"conta",
+		"defs":[
+			"Joueur contaminé par le Rat Malade. Ne pas confondre avec inf.",
+			"Action de contaminer un joueur, chez le Rat Malade."
+		],
+		"anto":null,
+		"syno":null
+	},
+	{
+		"name":"contrevote",
+		"defs":[
+			"Le fait de voter quelqu’un parce que cette personne nous vote, uniquement dans le but de se défendre."
+		],
+		"anto":[
+			"fv",
+			"fixer"
+		],
+		"syno":null
+	},
+	{
+		"name":"contest",
+		"defs":[
+			"Action de contester un rôle, que ce soit pour éviter que quelqu’un le dévoile a votre place, ou que vous êtes contre le village et que ce rôle peut vous poser problème. <b>Contester un rôle est synonyme de dévoilement et donc puni lors des parties sérieuses.</b>"
+		],
+		"anto":null,
+		"syno":[
+			"devo",
+			"fake-devo"
+		]
+	},
+	{
+		"name":"cr",
+		"defs":[
+			"<b>/ Chap :</b> Abréviation de Chaperon Rouge. <b>Joue avec: Chasseur</b>"
+		],
+		"anto":null,
+		"syno":[
+			"garde"
+		]
+	},
+	{
+		"name":"cupi",
+		"defs":[
+			"Abréviation de Cupidon."
+		],
+		"anto":null,
+		"syno":null
+	},
+	{
+		"name":"cupider",
+		"defs":[
+			"Actions de mettre un joueur en couple."
+		],
+		"anto":null,
+		"syno":[
+			"auto-cupi"
+		]
+	},
+	{
+		"name":"call",
+		"defs":[
+			"Action de voter un joueur et d’inciter le village à suivre ce vote."
+		],
+		"anto":[
+			"pivot"
+		],
+		"syno":[
+			"fv",
+			"fixer"
+		]
+	},
+	{
+		"name":"def",
+		"defs":[
+			"Abréviation de défense.",
+			"Action de donner un argument pour s’innocenter.",
+			"Action d’empêcher de tuer un joueur, généralement dans notre propre camp."
+		],
+		"anto":[
+			"fv",
+			"fixer",
+			"call",
+			"focus"
+		],
+		"syno":[
+			"devo",
+			"fake-devo"
+		]
+	},
+	{
+		"name":"dicta",
+		"defs":[
+			"Abréviation de Dictateur.",
+			"Action de prendre le pouvoir, pour le Dictateur. <b>Prendre le pouvoir au premier tour n’est pas très intelligent, c’est donc un comportement puni dans les parties sérieuses.</b>"
+		],
+		"anto":null,
+		"syno":null
+	},
+	{
+		"name":"devo",
+		"defs":[
+			"Action de dévoiler son rôle."
+		],
+		"anto":[
+			"fake-devo"
+		],
+		"syno":[
+			"contest",
+			"def"
+		]
+	},
+	{
+		"name":"fake-devo",
+		"defs":[
+			"Action de dévoiler un rôle qui n’est pas le nôtre. <b>Le feux dévoilement de rôle est puni en parties sérieuses."
+		],
+		"anto":[
+			"devo",
+			"def",
+			"contest"
+		],
+		"syno":[
+			"brain"
+		]
+	},
+	{
+		"name":"fixer",
+		"defs":[
+			"Fait de garder le vote sur un joueur"
+		],
+		"anto":[
+			"pivot"
+		],
+		"syno":[
+			"focus",
+			"fv"
+		]
+	},
+	{
+		"name":"fosso",
+		"defs":[
+			"Action de choisir un joueur, à la mort du Fossoyeur. Un autre joueur sera choisi au hasard mais ne sera pas dans le même camp. <b>Attention - Rôles solitaires: Le Loup Blanc sera face à un innocent, le Mercenaire et le Rat Malade seront face à des loups.",
+			"Joueur choisi par le Fossoyeur, ou joueur dans le camp opposé au joueur choisi."
+		],
+		"anto":null,
+		"syno":[
+			"safe"
+		]
+	},
+	{
+		"name":"fv",
+		"defs":[
+			"Action de voter un joueur en premier."
+		],
+		"anto":[
+			"pivot",
+			"def"
+		],
+		"syno":[
+			"focus",
+			"call"
+		]
+	},
+	{
+		"name":"focus",
+		"defs":[
+			"Le fait de s’acharner sur quelqu’un, ou en utilisant la traduction, littéralement se concentrer sur lui."
+		],
+		"anto":[
+			"pivot"
+		],
+		"syno":[
+			"fv",
+			"call"
+		]
 	}
 ]
