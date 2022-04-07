@@ -1,0 +1,71 @@
+[
+	{
+		"name":"afk",
+		"defs":[
+			"Abréviation de l’anglais <i>Away From Keybord</i>, qui peut s’interprêter par « absent »."
+		],
+		"anto":[
+			"carry"
+		],
+		"syno":null
+	},
+	{
+		"name":"auto-cupi",
+		"defs":[
+			"Fait de se rendre soi-même en couple, technique pas très appréciée ni très maline étant donné le risque de mort multiplié par 2 lorsqu’on est en couple."
+		],
+		"anto":null,
+		"syno":[
+			"cupidé"
+		]
+	},
+	{
+		"name":"anti",
+		"defs":[
+			"Faire quelque chose avec l’intention désavantager son camp, que ce soit pour plaisanter ou parce qu’on est énervé. <b>Le manque de fair-play est autorisé en partie fun, mais est considéré comme anti-jeu dans les parties sérieuses</b>"
+		],
+		"anto":[
+			"fair-play"
+		],
+		"syno":[
+			"ruin"
+		]
+	},
+	{
+		"name":"ano",
+		"defs":[
+			"Diminutif d’anonyme, fonction du jeu que possèdent les alpha. Vous aussi, pouvez devenir alpha an allant ici: https://help.wolfy.fr/fr/article/lalpha-1c19d9u/"
+		],
+		"anto":null,
+		"syno":null
+	},
+	{
+		"name":"brain",
+		"defs":[
+			"Fait de manipuler les joueurs sur une certaine action, de les tromper."
+		],
+		"anto":null,
+		"syno":null
+	},
+	{
+		"name":"bv",
+		"defs":[
+			"<b>/ Bvrd / Bav :</b> Désigne un des mots que le Loup Bavard doit placer pour rester en vie.",
+			"<b>/ Lgbv :</b> Désigne le Loup Bavard."
+		],
+		"anto":null,
+		"syno":null
+	},
+	{
+		"name":"bl",
+		"defs":[
+			"Abréviation de Bas Level, désignant les joueurs debutants.",
+			"Insulte parfois utilisée contre les joueurs faisant des erreurs similaires au cours d'une partie. <b>Utilisation interdite et sanctionn<i>able</i>!!</b>"
+		],
+		"anto":[
+			"ml",
+			"hl"
+		],
+		"syno":null
+	}
+]
