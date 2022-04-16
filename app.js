@@ -21,7 +21,7 @@ const app = express();
 					var foundWords = [];
 					var i = 0;
 					for (i==0, i < data.length, i++) {
-						if (data[i].name.charAt(0) == req.word.name) {
+						if (data[i].name.charAt(0) == req.letter.name) {
 							foundWords.push(data[i]);
 						}
 						i += i;
